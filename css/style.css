@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Roboto-regular";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-bold";
+    src: url("../font/Roboto/Roboto-Bold.ttf");
+}
+
+/* , ; */
+
+body{
+    font-family: "Roboto-regular","Open Sans", sans-serif  ;
+    background-color: rgba(0,0, 0, .9);
+    color: #bfc1c8;
+    
+}
+
+
+a{
+    color:white;
+}
+nav{
+    background-color: rgba(0,0, 0, 0.9);
+    height: 150px;
+    padding-top: 100px;
+}
+
+nav .navbar-brand  .logo-info p{
+    font-size: 13px;
+    color:#bfc1c8;
+}
+nav .navbar-brand  img{
+    width: 100px;
+    height: 50px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+/* nav .nav-item .nav-link.active{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+nav .nav-item .nav-link    a:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+a:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+} */
+
+.search{
+    padding-top: 150px;
+}
+header{
+    background-image: url("../images//banner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row .forecast{
+    background-color:#1e202b;
+    border-radius: 12px;
+    
+    
+}
+header .forecast-container .forecast .header{
+    background-color: rgba(0,0, 0, .4);
+    font-size: 20px;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    
+}
+header .forecast-container .forecast {
+    background-color: rgba(0,0, 0, .8);
+    height: 100%;
+ 
+}
+header .forecast-container .forecast2 .header2{
+    background-color: rgba(0,0, 0, 0.9);
+    font-size: 20px;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    
+}
+header .forecast-container .forecast2 {
+    background-color: rgba(0,0, 0, .5);
+    height: 100%;
+    border-radius: 12px;
+}
+
+.ratio-bas{
+    font-size: 120px;
+    color: white;
+}
+.ratio{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+header .forecast-container .forecast .content{
+    padding: 30px;
+}
+header .forecast-container .forecast2 .content{
+    padding: 30px;
+}
+
+header .forecast-container .forecast .footer{
+    padding: 30px;
+}
+
+.search input{
+    border: none;
+    background-color: transparent;
+ 
+}
+input:focus-visible {
+    outline-offset: 0px;
+}
+
+input:focus{
+    color: white;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.search .content{
+    background-color: rgba(0,0, 0,1);;
+    border-radius: 40px;
+}
+footer{
+    background-color: rgba(0,0, 0, 1);;
+    margin-top: 100px;
+  /* position: absolute; */
+  /* bottom: -300px; */
+  /* width: 100%; */
+
+ 
+}
+
+
+footer .row{
+    background: none;
+  
+}
+
+footer .social .social-icon{
+    font-size: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: rgba(0,0, 0, .5); 
+    width:20px ;
+    height: 20px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+footer .social .social-icon:hover{
+    color:white;
+ 
+}
